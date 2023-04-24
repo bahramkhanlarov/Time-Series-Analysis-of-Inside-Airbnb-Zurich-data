@@ -29,7 +29,7 @@ To deal with non stationarity,a series of transformations applied to a time seri
 
 After applying these transformations, several plots are created using the `plot_transformed_data` function to visualize the original time series and its transformed versions.
 
-![ts and ts_log time-series graph](.images/Screenshot 2023-04-25 at 01.14.35.png)
+![ts and ts_log time-series graph](images/Screenshot 2023-04-25 at 01.14.35.png)
 
 
 ## Source
