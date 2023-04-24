@@ -1,5 +1,13 @@
 # Time-Series-Analysis-of-Inside-Airbnb-Zurich-data
 
 
+This repository contains data used in a study on Airbnb listings in Zurich, Switzerland. The data were obtained from InsideAirbnb.com, an independent, non-commercial website that provides data and tools to explore how Airbnb is used in cities around the world.
 
-The data used in the present study come from InsideAirbnb.com (n.d.). According to the site operators, ‘Inside Airbnb is an independent, non-commercial set of tools and data that allows you to explore how Airbnb is really being used in cities around the world’. The data sets are actually a time snapshot and contain publicly available information about the lodgings, the host, customer reviews etc. We chose the city of Thessaloniki and downloaded the file listings.csv.gz, as it contains the most detailed information. The file was compiled on March 11th 2019 and the data refer to that time period. 
+## Data
+The data used in this study are a time snapshot compiled on January 01, 2023, and contain publicly available information about Airbnb listings in Zurich. The data set chosen for this study is reviews.csv, which includes summary review data and Listing IDs. This file was selected to facilitate time-based analytics and visualizations linked to a specific listing.
+
+## Source
+All data were obtained from InsideAirbnb.com, and are provided under a Creative Commons CC0 1.0 Universal (CC0 1.0) Public Domain Dedication.
+
+## License
+The data used in this repository are licensed under a Creative Commons CC0 1.0 Universal (CC0 1.0) Public Domain Dedication.
