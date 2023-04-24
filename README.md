@@ -16,6 +16,21 @@ These measures are used to smooth out short-term fluctuations and highlight long
 
 The test statistic is the result of the test, and the p-value is the probability of observing a test statistic as extreme as the one calculated if the null hypothesis (that the time series has a unit root and is therefore non-stationary) is true. When the p-value > 0.05, it means that there is not enough evidence to reject the null hypothesis at significance level of 5%.
 
+To deal with non stationarity,a series of transformations applied to a time series stored in a DataFrame `df_example`. The original time series is stored in the `ts` column of the DataFrame. The following transformations are applied to the time series:
+
+1. Log transformation: The natural logarithm of the time series values is calculated and stored in a new column `ts_log`.
+2. 7-day moving average of the log-transformed time series: The 7-day moving average of the `ts_log` column is calculated and stored in a new column `ts_log_moving_avg`.
+3. 7-day moving average of the original time series: The 7-day moving average of the `ts` column is calculated and stored in a new column `ts_moving_avg`.
+4. Difference between the log-transformed time series and its first lag: The difference between the `ts_log` column and its first lag is calculated and stored in a new column `ts_log_diff`.
+5. Difference between the original time series and its 7-day moving average: The difference between the `ts` column and the `ts_moving_avg` column is calculated and stored in a new column `ts_moving_avg_diff`.
+6. Difference between the log-transformed time series and its 7-day moving average: The difference between the `ts_log` column and the `ts_log_moving_avg` column is calculated and stored in a new column `ts_log_moving_avg_diff`.
+7. Exponentially weighted moving average (EWMA) of the log-transformed time series: The EWMA of the `ts_log` column with a half-life of 7 is calculated and stored in a new column `ts_log_ewma`.
+8. Difference between the log-transformed time series and its EWMA: The difference between the `ts_log` column and the `ts_log_ewma` column is calculated and stored in a new column `ts_log_ewma_diff`.
+
+After applying these transformations, several plots are created using the `plot_transformed_data` function to visualize the original time series and its transformed versions.
+
+
+
 
 ## Source
 All data were obtained from InsideAirbnb.com, and are provided under a Creative Commons CC0 1.0 Universal (CC0 1.0) Public Domain Dedication.
