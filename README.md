@@ -31,6 +31,8 @@ After applying these transformations, several plots are created using the `plot_
 
 ![ts and ts_log time-series graph](/images/Screenshot%202023-04-25%20at%2001.31.53.png)
 
+![ts_log and ts_log_dif graph](/images/Screenshot%202023-04-25%20at%2001.34.10.png)
+
 ## Source
 All data were obtained from InsideAirbnb.com, and are provided under a Creative Commons CC0 1.0 Universal (CC0 1.0) Public Domain Dedication.
 
