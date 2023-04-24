@@ -1,5 +1,7 @@
 # Time-Series-Analysis-of-Inside-Airbnb-Zurich-data
 
+![Inside Airbnb Zurich](./images/Screenshot%202023-04-25%20at%2000.34.17.png)
+
 
 This repository contains data used in a study on Airbnb listings in Zurich, Switzerland. The data were obtained from InsideAirbnb.com, an independent, non-commercial website that provides data and tools to explore how Airbnb is used in cities around the world.
 
